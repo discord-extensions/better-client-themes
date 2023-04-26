@@ -1,0 +1,350 @@
+/**
+ * @name Better Client Themes
+ * @author LuckFire
+ * @version 0.1.0
+ * @description Improves Discord's client themes.
+ * @source https://github.com/discord-extensions/better-client-themes
+ * @invite vYdXbEzqDs
+ * @authorId 399416615742996480
+*/
+
+@import url('https://discord-extensions.github.io/better-client-themes/src/better-client-themes.css');
+
+.custom-theme-background.theme-dark {
+  --bg-overlay-floating-opactiy: 0.9;
+}
+.custom-theme-background.theme-light {
+  --bg-overlay-floating-opactiy: 0.75;
+}
+.custom-theme-background:root {
+  --bg-overlay-1-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-1));
+  --bg-overlay-2-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2));
+  --bg-overlay-3-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3));
+  --bg-overlay-4-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-4));
+  --bg-overlay-5-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5));
+  --bg-overlay-6-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-6));
+  --bg-overlay-1-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-1));
+  --bg-overlay-2-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-2));
+  --bg-overlay-3-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-3));
+  --bg-overlay-4-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4));
+  --bg-overlay-5-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-5));
+  --bg-overlay-6-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+  --bg-overlay-scrollbar-track: linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background);
+  --bg-overlay-scrollbar-thumb: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)),rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),var(--custom-theme-background);
+  --bg-overlay-floating: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-floating-opactiy)),rgb(var(--bg-overlay-color)/var(--bg-overlay-floating-opactiy))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover;
+}
+
+.custom-theme-background #app-mount .auto-2TJ1RH::-webkit-scrollbar-thumb {
+  background-image: var(--bg-overlay-scrollbar-thumb);
+}
+.custom-theme-background #app-mount .auto-2TJ1RH::-webkit-scrollbar-track {
+  background-image: var(--bg-overlay-scrollbar-track);
+}
+.custom-theme-background #app-mount .thin-RnSY0a::-webkit-scrollbar-thumb {
+  background-image: var(--bg-overlay-scrollbar-thumb);
+}
+
+.custom-theme-background #app-mount .wrapper-2SplAX {
+  background: var(--bg-overlay-3);
+}
+.custom-theme-background #app-mount .attachedBars-2BCP3l,
+.custom-theme-background #app-mount .jumpToPresentBar-1cEnH0 {
+  background: var(--bg-overlay-4);
+}
+
+.custom-theme-background .markup-eYLPri code {
+  border: none;
+  background: var(--bg-overlay-3);
+}
+
+.custom-theme-background #app-mount .chatContent-3KubbW .chatHeaderBar-2fUORh {
+  background: var(--bg-overlay-3);
+}
+
+.custom-theme-background #app-mount .chat-2ZfjoI .mainCard-3KBsBI.header-1Uy0p6 {
+  background: var(--bg-overlay-4);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .matchingPostsRow-2IiEQ1 {
+  background: var(--bg-overlay-3);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .container-3arpDl {
+  border: none;
+  background: var(--bg-overlay-3);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .container-3arpDl .descriptionContainer-2ylKGk {
+  background: var(--bg-overlay-2);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .container-3arpDl .gradient-1SYq38 {
+  background: none;
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .container-3arpDl .linkContainer-2xEQjX {
+  background: var(--bg-overlay-2);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .sortDropdown-hY93nR,
+.custom-theme-background #app-mount .chat-2ZfjoI .tag-19iIl1,
+.custom-theme-background #app-mount .chat-2ZfjoI .tagsButton-4pwOKH {
+  background: var(--bg-overlay-3);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .mainCard-3KBsBI.card-2JNtco,
+.custom-theme-background #app-mount .chat-2ZfjoI .container-2qVG6q {
+  background: var(--bg-overlay-5-nogradient);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .mainCard-3KBsBI.card-2JNtco:hover,
+.custom-theme-background #app-mount .chat-2ZfjoI .container-2qVG6q:hover {
+  border-color: var(--bg-overlay-6-inverse-nogradient);
+  background: var(--bg-overlay-6-inverse-nogradient);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .isOpen-O7ANQc,
+.custom-theme-background #app-mount .chat-2ZfjoI .isOpen-2OXbFs {
+  border-color: var(--bg-overlay-6-inverse-nogradient);
+  background: var(--bg-overlay-6-inverse-nogradient);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .contentPreview-3fWiuC {
+  border: none;
+  background: var(--bg-overlay-6-inverse-nogradient);
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .contentPreview-3fWiuC .textContentFooter-2JnNv8 {
+  background: none;
+}
+.custom-theme-background #app-mount .chat-2ZfjoI .tagPill-1kSbgP,
+.custom-theme-background #app-mount .chat-2ZfjoI .pill-3pRQlO {
+  background: var(--bg-overlay-3);
+}
+
+.custom-theme-background .guildIconImage-74OdmM {
+  background-color: transparent;
+}
+.custom-theme-background .timestamp-6-ptG3 {
+  background: var(--bg-overlay-4);
+}
+.custom-theme-background .wrapper-2vIMkT {
+  background: var(--bg-overlay-floating);
+}
+.custom-theme-background .wrapper-2vIMkT .button-3bklZh:hover {
+  background: var(--bg-overlay-hover);
+}
+.custom-theme-background .wrapper-2vIMkT .button-3bklZh:active {
+  background: var(--bg-overlay-active);
+}
+
+.theme-light .embedFull-1HGV2S {
+  background: var(--bg-overlay-2);
+}
+.theme-light .wrapper-1HIH0j,
+.theme-light .wrapperAudio-1Bzv_Z,
+.theme-light .textContainer-36wgKK,
+.theme-light .footer-GXWBBp {
+  border: none;
+  background: var(--bg-overlay-2);
+}
+.theme-light .textContainer-36wgKK .hljs {
+  background: var(--bg-overlay-2);
+}
+
+.theme-dark .embedFull-1HGV2S {
+  background: var(--bg-overlay-1);
+}
+.theme-dark .wrapper-1HIH0j,
+.theme-dark .wrapperAudio-1Bzv_Z,
+.theme-dark .textContainer-36wgKK,
+.theme-dark .footer-GXWBBp {
+  border: none;
+  background: var(--bg-overlay-1);
+}
+.theme-dark .textContainer-36wgKK .hljs {
+  background: var(--bg-overlay-1);
+}
+
+.custom-theme-background #app-mount [class=reaction-3vwAF2],
+.custom-theme-background #app-mount [class="reaction-102jx9 updateReactionButton-2dT2HE"] {
+  background: var(--bg-overlay-3);
+}
+
+.custom-theme-background #app-mount .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+  background: var(--bg-overlay-4);
+}
+.custom-theme-background #app-mount .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
+  background: var(--bg-overlay-5);
+}
+
+.custom-theme-background #app-mount .lookFilled-GPyucw.select-Zz0IcO {
+  border-color: var(--bg-overlay-6-inverse-nogradient);
+  background: var(--bg-overlay-3);
+}
+.custom-theme-background #app-mount .popout-15UxD6 {
+  border-color: var(--bg-overlay-6-inverse-nogradient);
+  background: var(--bg-overlay-2);
+}
+.custom-theme-background #app-mount .popout-15UxD6 .option-Uc12mm:hover {
+  background: var(--bg-overlay-hover);
+}
+.custom-theme-background #app-mount .popout-15UxD6 .option-Uc12mm[aria-selected=true]:not(.multi-2vPqc4) {
+  background: var(--bg-overlay-selected);
+}
+
+.custom-theme-background #app-mount .itemFilled-2Fo7lr {
+  background: var(--bg-overlay-3);
+}
+.custom-theme-background #app-mount .itemFilled-2Fo7lr:hover {
+  background: var(--bg-overlay-hover);
+}
+.custom-theme-background #app-mount .itemFilled-2Fo7lr:is([aria-checked=true], :active) {
+  background: var(--bg-overlay-selected);
+}
+
+.custom-theme-background #app-mount .bioTextArea-dDGOeC,
+.custom-theme-background #app-mount .input-3O04eu {
+  background: var(--bg-overlay-4);
+}
+.custom-theme-background #app-mount .disabled-1-f06g {
+  background: var(--bg-overlay-4);
+}
+
+.custom-theme-background #app-mount .root-1CAIjD .modalHeader-3X0A4K,
+.custom-theme-background #app-mount .root-1CAIjD .scrollTierBackground-BnWR8k {
+  background: none;
+}
+.custom-theme-background #app-mount .root-1CAIjD .container-2oNtJn {
+  background: var(--bg-overlay-4);
+}
+.custom-theme-background #app-mount .root-1CAIjD .activityItem-1Z9CTr {
+  background: var(--bg-overlay-5-nogradient);
+}
+.custom-theme-background #app-mount .root-1CAIjD .activityItem-1Z9CTr:hover {
+  background: var(--bg-overlay-3-nogradient);
+}
+.custom-theme-background #app-mount .root-1CAIjD .activityItem-1Z9CTr .activityTag-3C3YK5 {
+  background: var(--bg-overlay-6-inverse-nogradient);
+}
+
+.custom-theme-background #app-mount .root-1CAIjD .decorationGridItem-3J_11G,
+.custom-theme-background #app-mount .root-1CAIjD .decorationPreview-273BXH,
+.custom-theme-background #app-mount .root-1CAIjD .smallDecorationPreviewsContainer-2R9zvq {
+  background: var(--bg-overlay-5-nogradient);
+}
+
+.custom-theme-background #app-mount .root-1CAIjD .message-G6O-Wv {
+  box-shadow: 0 0 0 1px var(--bg-overlay-6-inverse-nogradient);
+  background: var(--bg-overlay-5-nogradient);
+}
+
+.custom-theme-background #app-mount .root-1CAIjD {
+  background: var(--bg-overlay-app-frame);
+}
+.custom-theme-background #app-mount .root-1CAIjD::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+.custom-theme-background #app-mount .root-1CAIjD.rootWithShadow-2hdL2J {
+  box-shadow: 0 0 0 1px var(--bg-overlay-4-nogradient);
+}
+.custom-theme-background #app-mount .root-1CAIjD .content-2eQb8J {
+  background: none;
+}
+.custom-theme-background #app-mount .root-1CAIjD .footerSeparator-3U8YsT {
+  box-shadow: none;
+}
+
+.custom-theme-background.theme-light #app-mount .root-1CAIjD::before {
+  background-color: var(--bg-overlay-4-nogradient);
+}
+.custom-theme-background.theme-light #app-mount .root-1CAIjD .footer-IubaaS {
+  background: var(--bg-overlay-4-nogradient);
+}
+
+.custom-theme-background.theme-dark #app-mount .root-1CAIjD::before {
+  background-color: var(--bg-overlay-5-nogradient);
+}
+.custom-theme-background.theme-dark #app-mount .root-1CAIjD .footer-IubaaS {
+  background: var(--bg-overlay-5-nogradient);
+}
+
+.custom-theme-background #app-mount .root-1CAIjD .optionBox-1UOevl {
+  background: var(--bg-overlay-5-nogradient);
+}
+
+.custom-theme-background #app-mount .root-1CAIjD .perks-2IIbWQ {
+  background: var(--bg-overlay-4-nogradient);
+}
+.custom-theme-background #app-mount .root-1CAIjD .perks-2IIbWQ .perkRow-10K6XE {
+  border-bottom-color: var(--bg-overlay-6-inverse-nogradient);
+}
+
+.custom-theme-background #app-mount .scroller-hE2gWq {
+  border-left-color: var(--bg-overlay-6-inverse-nogradient);
+}
+.custom-theme-background #app-mount .scroller-hE2gWq .wrapper-2RrXDg {
+  border-color: var(--bg-overlay-6-inverse-nogradient);
+  background: var(--bg-overlay-5-nogradient);
+}
+.custom-theme-background #app-mount .scroller-hE2gWq .wrapper-2RrXDg:hover {
+  background-color: var(--bg-overlay-6-inverse-nogradient);
+}
+.custom-theme-background #app-mount .scroller-hE2gWq .wrapper-2RrXDg .inset-SbsSFp {
+  background-color: var(--bg-overlay-6-inverse-nogradient);
+}
+.custom-theme-background #app-mount .scroller-hE2gWq .wrapper-2RrXDg .inset-SbsSFp .section-3G9aLW {
+  background: none;
+}
+.custom-theme-background #app-mount .scroller-hE2gWq .wrapper-2RrXDg .separator-2OaeRP {
+  background-color: var(--bg-overlay-6-inverse-nogradient);
+}
+
+.custom-theme-background .pageWrapper-2PwDoS {
+  background: var(--bg-overlay-chat);
+}
+
+.custom-theme-background .container-36u7Lw {
+  background: var(--bg-overlay-chat);
+}
+.custom-theme-background .container-36u7Lw .scroller-2XLwLg,
+.custom-theme-background .container-36u7Lw .scroller-1TOeMq,
+.custom-theme-background .container-36u7Lw .header-2EadGG {
+  background: none;
+}
+
+.custom-theme-background .container-2RRFHK {
+  background: var(--bg-overlay-chat);
+}
+
+.custom-theme-background .applicationStore-2nk7Lo {
+  background: var(--bg-overlay-chat);
+}
+.custom-theme-background .applicationStore-2nk7Lo .container-ZMc96U,
+.custom-theme-background .applicationStore-2nk7Lo .scroller-29cQFV {
+  background: none;
+}
+.custom-theme-background .applicationStore-2nk7Lo .feature-2IUcBI {
+  background: var(--bg-overlay-1);
+}
+
+.custom-theme-background .menu-2TXYjN {
+  background: var(--bg-overlay-floating);
+}
+.custom-theme-background .menu-2TXYjN .button-1zW0-r:hover {
+  background: var(--bg-overlay-hover);
+}
+
+.custom-theme-background.theme-light .menu-2TXYjN .button-1zW0-r {
+  background: var(--bg-overlay-1);
+}
+
+.custom-theme-background.theme-dark .menu-2TXYjN .button-1zW0-r {
+  background: var(--bg-overlay-2);
+}
+
+.custom-theme-background #app-mount .themeEditor-1Ebyfp {
+  border-left-color: var(--bg-overlay-6-inverse-nogradient);
+  background: var(--bg-overlay-chat);
+}
+
+.custom-theme-background #app-mount .contentRegionScroller-2_GT_N {
+  background: var(--bg-overlay-chat);
+}
+
+.custom-theme-background #app-mount .sidebarRegionScroller-FXiQOh {
+  background: var(--bg-overlay-3);
+}

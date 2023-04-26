@@ -1,0 +1,13 @@
+.custom-theme-background #app-mount {
+    .auto-2TJ1RH {
+        &::-webkit-scrollbar-thumb {
+            background-image: var(--bg-overlay-scrollbar-thumb);
+        }
+        &::-webkit-scrollbar-track {
+            background-image: var(--bg-overlay-scrollbar-track);
+        }
+    }
+    .thin-RnSY0a::-webkit-scrollbar-thumb {
+        background-image: var(--bg-overlay-scrollbar-thumb);
+    }
+}

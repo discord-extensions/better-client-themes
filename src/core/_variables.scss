@@ -1,0 +1,29 @@
+.custom-theme-background {
+    &.theme-dark {
+        --bg-overlay-floating-opactiy: 0.9;
+    }
+    
+    &.theme-light {
+        --bg-overlay-floating-opactiy: 0.75;
+    }
+    
+    &:root {
+        --bg-overlay-1-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-1));
+        --bg-overlay-2-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2));
+        --bg-overlay-3-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3));
+        --bg-overlay-4-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-4));
+        --bg-overlay-5-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5));
+        --bg-overlay-6-nogradient: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-6));
+
+        --bg-overlay-1-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-1));
+        --bg-overlay-2-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-2));
+        --bg-overlay-3-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-3));
+        --bg-overlay-4-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4));
+        --bg-overlay-5-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-5));
+        --bg-overlay-6-inverse-nogradient: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    
+        --bg-overlay-scrollbar-track: linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background);
+        --bg-overlay-scrollbar-thumb: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)),rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),var(--custom-theme-background);
+        --bg-overlay-floating: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-floating-opactiy)),rgb(var(--bg-overlay-color)/var(--bg-overlay-floating-opactiy))) fixed 0 0/cover,var(--custom-theme-background) fixed 0 0/cover;
+    }
+}

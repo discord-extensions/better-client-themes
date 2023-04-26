@@ -1,0 +1,56 @@
+.custom-theme-background #app-mount .chat-2ZfjoI {
+    .mainCard-3KBsBI.header-1Uy0p6 {
+        background: var(--bg-overlay-4);
+    }
+    .matchingPostsRow-2IiEQ1 {
+        background: var(--bg-overlay-3);
+    }
+
+    // Guidelines
+    .container-3arpDl {
+        border: none;
+        background: var(--bg-overlay-3);
+        .descriptionContainer-2ylKGk {
+            background: var(--bg-overlay-2);
+        }
+        .gradient-1SYq38 {
+            background: none;
+        }
+        .linkContainer-2xEQjX {
+            background: var(--bg-overlay-2);
+        }
+    }
+
+    // Tags
+    .sortDropdown-hY93nR,
+    .tag-19iIl1,
+    .tagsButton-4pwOKH {
+        background: var(--bg-overlay-3);
+    }
+
+    // Posts
+    .mainCard-3KBsBI.card-2JNtco,
+    .container-2qVG6q {
+        background: var(--bg-overlay-5-nogradient);
+        &:hover {
+            border-color: var(--bg-overlay-6-inverse-nogradient);
+            background: var(--bg-overlay-6-inverse-nogradient);
+        }
+    }
+    .isOpen-O7ANQc,
+    .isOpen-2OXbFs {
+        border-color: var(--bg-overlay-6-inverse-nogradient);
+        background: var(--bg-overlay-6-inverse-nogradient);
+    }
+    .contentPreview-3fWiuC {
+        border: none;
+        background: var(--bg-overlay-6-inverse-nogradient);
+        .textContentFooter-2JnNv8 {
+            background: none;
+        }
+    }
+    .tagPill-1kSbgP,
+    .pill-3pRQlO {
+        background: var(--bg-overlay-3);
+    }
+}

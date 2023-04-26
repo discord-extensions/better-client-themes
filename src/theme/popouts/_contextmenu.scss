@@ -1,0 +1,22 @@
+.custom-theme-background .menu-2TXYjN {
+    background: var(--bg-overlay-floating);
+    .button-1zW0-r {
+        &:hover {
+            background: var(--bg-overlay-hover);
+        }
+    }
+}
+
+// Light Mode
+.custom-theme-background.theme-light .menu-2TXYjN {
+    .button-1zW0-r {
+        background: var(--bg-overlay-1);
+    }
+}
+
+// Dark Mode
+.custom-theme-background.theme-dark .menu-2TXYjN {
+    .button-1zW0-r {
+        background: var(--bg-overlay-2);
+    }
+}

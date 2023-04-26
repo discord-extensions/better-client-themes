@@ -1,0 +1,18 @@
+.custom-theme-background #app-mount .root-1CAIjD {
+    .modalHeader-3X0A4K,
+    .scrollTierBackground-BnWR8k {
+        background: none;
+    }
+    .container-2oNtJn {
+        background: var(--bg-overlay-4);
+    }
+    .activityItem-1Z9CTr {
+        background: var(--bg-overlay-5-nogradient);
+        &:hover {
+            background: var(--bg-overlay-3-nogradient);
+        }
+        .activityTag-3C3YK5 {
+            background: var(--bg-overlay-6-inverse-nogradient);
+        }
+    }
+}

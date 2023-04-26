@@ -1,0 +1,18 @@
+.custom-theme-background #app-mount {
+    .lookFilled-GPyucw.select-Zz0IcO {
+        border-color: var(--bg-overlay-6-inverse-nogradient);
+        background: var(--bg-overlay-3);
+    }
+    .popout-15UxD6 {
+        border-color: var(--bg-overlay-6-inverse-nogradient);
+        background: var(--bg-overlay-2);
+        .option-Uc12mm {
+            &:hover {
+                background: var(--bg-overlay-hover);
+            }
+            &[aria-selected=true]:not(.multi-2vPqc4) {
+                background: var(--bg-overlay-selected);
+            }
+        }
+    }
+}

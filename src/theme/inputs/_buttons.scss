@@ -1,0 +1,9 @@
+.custom-theme-background #app-mount {
+    // Gray
+    .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+        background: var(--bg-overlay-4);
+        &:hover {
+            background: var(--bg-overlay-5);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.custom-theme-background #app-mount {
+    .itemFilled-2Fo7lr {
+        background: var(--bg-overlay-3);
+        &:hover {
+            background: var(--bg-overlay-hover);
+        }
+        &:is([aria-checked="true"], :active) {
+            background: var(--bg-overlay-selected);
+        }
+    }
+}

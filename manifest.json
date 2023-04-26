@@ -1,0 +1,18 @@
+{
+    "id": "dev.LuckFire.BetterClientThemes",
+    "name": "Better Client Themes",
+    "description": "Improves Discord's client themes.",
+    "author": {
+      "name": "LuckFire",
+      "discordID": "399416615742996480",
+      "github": "luckfire"
+    },
+    "version": "0.1.0",
+    "updater": {
+      "type": "github",
+      "id": "discord-extensions/better-client-themes"
+    },
+    "license": "MIT",
+    "type": "replugged-theme",
+    "main": "src/source.scss"
+}

@@ -1,0 +1,40 @@
+.custom-theme-background #app-mount .root-1CAIjD {
+    background: var(--bg-overlay-app-frame);
+    // There is most likely a better way to do this. Works for now.
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+    }
+    &.rootWithShadow-2hdL2J {
+        box-shadow: 0 0 0 1px var(--bg-overlay-4-nogradient);
+    }
+    .content-2eQb8J {
+        background: none;
+    }
+    .footerSeparator-3U8YsT {
+        box-shadow: none;
+    }
+}
+
+// Light Mode
+.custom-theme-background.theme-light #app-mount .root-1CAIjD {
+    &::before {
+        background-color: var(--bg-overlay-4-nogradient);
+    }
+    .footer-IubaaS {
+        background: var(--bg-overlay-4-nogradient);
+    }
+}
+
+// Dark Mode
+.custom-theme-background.theme-dark #app-mount .root-1CAIjD {
+    &::before {
+        background-color: var(--bg-overlay-5-nogradient);
+    }
+    .footer-IubaaS {
+        background: var(--bg-overlay-5-nogradient);
+    }
+}

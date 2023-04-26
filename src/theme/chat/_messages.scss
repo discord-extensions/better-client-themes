@@ -1,0 +1,62 @@
+.custom-theme-background {
+    // Attachments
+    .guildIconImage-74OdmM {
+        background-color: transparent;
+    }
+    .timestamp-6-ptG3 {
+        background: var(--bg-overlay-4);
+    }
+
+    // Quick Actions
+    .wrapper-2vIMkT {
+        background: var(--bg-overlay-floating);
+        .button-3bklZh {
+            &:hover {
+                background: var(--bg-overlay-hover);
+            }
+            &:active {
+                background: var(--bg-overlay-active);
+            }
+        }
+    }
+}
+
+// Light Mode
+.theme-light {
+    // Embeds
+    .embedFull-1HGV2S {
+        background: var(--bg-overlay-2);
+    }
+
+    // Attachments
+    .wrapper-1HIH0j,
+    .wrapperAudio-1Bzv_Z,
+    .textContainer-36wgKK,
+    .footer-GXWBBp {
+        border: none;
+        background: var(--bg-overlay-2);
+    }
+    .textContainer-36wgKK .hljs {
+        background: var(--bg-overlay-2);
+    }
+}
+
+// Dark Mode
+.theme-dark {
+    // Embeds
+    .embedFull-1HGV2S {
+        background: var(--bg-overlay-1);
+    }
+
+    // Attachments
+    .wrapper-1HIH0j,
+    .wrapperAudio-1Bzv_Z,
+    .textContainer-36wgKK,
+    .footer-GXWBBp {
+        border: none;
+        background: var(--bg-overlay-1);
+    }
+    .textContainer-36wgKK .hljs {
+        background: var(--bg-overlay-1);
+    }
+}
